@@ -84,7 +84,7 @@ a:hover {
 }
 
 @media only screen
-and (min-device-width : 375px)
+and (min-device-width : 175px)
 and (max-device-width : 667px) {
   .main-block h1 {
     font-size: 90px;

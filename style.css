@@ -83,15 +83,16 @@ a:hover {
   color: #616161;
 }
 
-@media screen and (max-width: 930px) {
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
   .main-block h1 {
-    font-size: 80px;
+    font-size: 90px;
   }
   .main-block p {
-    font-size: 29pt;
-    margin-bottom: 25%;
+    font-size: 46px;
   }
   body {
-    font-size: 25pt;
+    font-size: 36px;
   }
 }

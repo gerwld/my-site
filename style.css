@@ -15,7 +15,7 @@ body {
   background-image: url("bg.png");
   background-repeat:no-repeat;
   background-position: center top;
-  font-family:  sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-size: 19pt;
 }
 
@@ -66,18 +66,15 @@ body {
 
 .main-block h1 {
   font-size: 60px;
-  font-weight: bold;
 }
 
 .main-block p {
-  font-weight: 900;
   font-size: 26pt;
   margin-bottom: 25%;
 }
 
 a {
   color: #000;
-  font-weight: bold;
   transition: 0.2s;
 
 }

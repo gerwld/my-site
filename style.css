@@ -125,6 +125,6 @@ and (max-device-width : 667px) {
   position: absolute;
   width: 22px;
   height: 17px;
-  left: -28px;
-  bottom: 4px;
+  left: -30px;
+  top: calc(50% - 6px);
 }

@@ -119,8 +119,12 @@ and (max-device-width : 667px) {
 }
 
 .addit-contact-info a::before {
-  content: url("img/mail.svg");
+  content: "";
+  background-image: url("img/mail.svg");
+  background-repeat: no-repeat;
   position: absolute;
+  width: 22px;
+  height: 17px;
   left: -28px;
-  bottom: -2px;
+  bottom: 4px;
 }

@@ -1,7 +1,21 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: > 1%
+*/
+
 body, html {
   margin: 0;
   padding: 0;
    height:100%;
+}
+
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
 }
 
 body {
@@ -52,7 +66,8 @@ body {
 }
 
 .addit-contact-info {
-  align-self: center;
+  -ms-grid-row-align: center;
+      align-self: center;
   margin-top: 50px;
 }
 

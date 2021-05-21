@@ -147,7 +147,7 @@ and (max-device-width : 667px) {
 }
 
 .social-links a {
-  border-bottom: 3px solid rgb(130 152 187 / 51%);
+  border-bottom: 3px solid rgba(130,152, 187, 0.5);
   padding-top: 6px;
 }
 

@@ -139,3 +139,11 @@ and (max-device-width : 667px) {
 .addit-contact-info a{
   position: relative;
 }
+
+.tech-icon img {
+  display: inline-block;
+  width: 26pt;
+  height: 26pt;
+  margin-bottom: -5px;
+  margin-left: 5px;
+}
